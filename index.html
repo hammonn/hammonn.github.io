@@ -70,9 +70,12 @@
 	.occasional img{
 		max-width: 395px;
 	}
-		.box{
-		display: inline-block;		
-		width: 100%;
+	.box {
+	    display: flex;
+	    width: 100%;
+	    justify-content: space-between;
+	    align-items: flex-start;
+	    flex-wrap: wrap;
 	}
   	.hidden{
   		display: none;
@@ -127,6 +130,7 @@
 	<div class="occasional">
 		<div class="box">
 			<p>When was the last time you checked on these, ya dingus?!</p>
+			<br class="clear">	
 			<a target="_blank" href="http://bit.ly/2tzcfqC"><img src="helck.jpg"><span class="hidden">Helk</span></a>
 			<a target="_blank" href="http://bit.ly/2smujEN"><img src="Gakkou.Gurashi!.full.1902490.jpg"><span class="hidden">Gakkou Gurashi!</span></a>
 			<a target="_blank" href="http://bit.ly/2rCITuZ"><img src="relife.jpg"><span class="hidden">ReLIFE</span></a>
